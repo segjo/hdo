@@ -15,18 +15,22 @@
 	<name>Home Document Organizer</name>
 
 
-
 	<organization>
 		<name>FFHS-HDO</name>
 	</organization>
-
+	<contributors>
+		<contributor>
+			<name>Denis Bittante</name>
+			<email>denisbittante@gmail.com</email>
+		</contributor>
+	</contributors>
 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
-			<version>3.8.2</version>
+			<version>4.12</version>
 		</dependency>
 	</dependencies>
 

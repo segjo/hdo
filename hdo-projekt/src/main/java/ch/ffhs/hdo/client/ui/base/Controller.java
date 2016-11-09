@@ -13,6 +13,8 @@ public abstract class Controller<M extends Model, V extends View<M>> {
 
 	ResourceBundle resourceBundle;
 	JFrame frame;
+	M model;
+	V view;
 
 	public Controller() {
 
@@ -27,6 +29,10 @@ public abstract class Controller<M extends Model, V extends View<M>> {
 
 	}
 
+	public M getModel() {
+		return model;
+	}
+
 	public JFrame getMainWindow() {
 		frame.setTitle("title");
 		frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
@@ -36,4 +42,7 @@ public abstract class Controller<M extends Model, V extends View<M>> {
 		return frame;
 	}
 
+	public V getView() {
+		return view;
+	}
 }
