@@ -1,8 +1,5 @@
 package ch.ffhs.hdo.client.ui.einstellungen;
 
-import java.util.Observable;
-import java.util.Observer;
-
 import ch.ffhs.hdo.client.ui.base.Controller;
 /**
  * 
@@ -14,14 +11,6 @@ public class EinstellungController extends Controller<EinstellungModel, Einstell
 		super();
 
 		
-		
-		getModel().addObserver(new Observer() {
-
-			public void update(Observable o, Object arg) {
-				EinstellungModel ein = (EinstellungModel)(arg);
-			
-			}
-		});
 
 	}
 
