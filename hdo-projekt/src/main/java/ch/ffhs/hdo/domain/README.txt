@@ -1,0 +1,1 @@
+In diesem Verzeichnis werden POJOs abgelegt (Plain Old Java Objects). Diese werden NICHT direkt als ViewModels genutzt sondern sollen dazu dienen die Fachlogik auf dieser basis abzubilden.
