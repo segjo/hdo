@@ -1,5 +1,5 @@
 package ch.ffhs.hdo.client;
-	// Daniel: Test GIT ....
+
 import javax.swing.JFrame;
 
 import ch.ffhs.hdo.client.ui.einstellungen.EinstellungController;
